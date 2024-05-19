@@ -1,0 +1,12 @@
+.rewardPage {
+    background-color: #ebe5fc;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.rewardContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

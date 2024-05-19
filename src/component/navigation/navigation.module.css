@@ -1,0 +1,35 @@
+.header {
+    position: relative;
+    width: 100%;
+    height: 60px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* background-color: #493272; */
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+
+.headerIcon {
+    width: 28px;
+    margin-right: 6px;
+}
+
+.headerLogo {
+    margin: 10px;
+    color: #977cc7;
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.loginHeader {
+    background: none;
+}
+
+.account {
+    margin-left: auto;
+    margin-right: 16px;
+}

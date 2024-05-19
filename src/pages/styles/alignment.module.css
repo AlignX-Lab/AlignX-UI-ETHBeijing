@@ -1,0 +1,22 @@
+.alignmentPage {
+    background-color: #ebe5fc;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.alignmentContainer {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.submitButton {
+    width: 60%;
+    margin-top: 10px;
+}
+
+.nextButton {
+    width: 60%;
+    margin-top: 10px;
+}
