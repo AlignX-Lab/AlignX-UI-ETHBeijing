@@ -95,23 +95,21 @@ code: <https://github.com/fringsoo/valuia/tree/28b367e96752a5a9bd95606b6f16d897e
 
 To test the effectiveness of the protocol, we conducted a simulation experiment involving 20 participants adopting 4 different strategies for 5 rounds of feedback on 100 cases in 1 scenario. The 4 strategies are:
 
-• Mainstream High Frequency: Participants adopt the mainstream view with high probability and provide feedback at a relatively high frequency in each round.
+• \[blue\] Mainstream High Frequency: Participants adopt the mainstream view with high probability and provide feedback at a relatively high frequency in each round.
 
-• Mainstream Low Frequency: Participants adopt the mainstream view with high probability but provide feedback at a relatively low frequency in each round. 
+• \[green\] Mainstream Low Frequency: Participants adopt the mainstream view with high probability but provide feedback at a relatively low frequency in each round. 
 
-• Non-Mainstream High Frequency: Participants adopt the mainstream view with low probability and provide feedback at a relatively high frequency in each round.
+• \[orange\] Non-Mainstream High Frequency: Participants adopt the mainstream view with low probability and provide feedback at a relatively high frequency in each round.
 
-• Random: Participants provide random feedback in each case of every round.
+• \[red\] Random: Participants provide random feedback in each case of every round.
 
 In the experiment, we assume there are 5 mainstream high frequency participants, 13 mainstream low frequency participants, 1 non-mainstream high frequency participant, and 1 random participant. We also assume the total incentive distributed to all participants in each round is 1.
 
 Additionally, to characterize the dynamic nature of society, we further assume that after 3 rounds, the non-mainstream participant convinces the mainstream participants to accept their view. So in the last 2 rounds, participants who originally adopted a mainstream strategy start providing feedback based on the non-mainstream view with a higher probability.
 
-The figure below shows the payoffs received by the 20 players over the 5 rounds, where blue corresponds to mainstream high frequency players, green to mainstream low frequency players, orange to the non-mainstream high frequency player, and red to the random player.
-
 ![image](https://github.com/AlignX-Lab/AlignX-UI/assets/49367723/5b6258e4-3f55-49db-a2de-c438f2bc6c31)
 
-Based on the experimental results mentioned above, we can draw the following important conclusions:
+Based on the experimental results shown in the figure above, we can draw the following important conclusions:
 
 • Random attacks cannot gain rewards:
 Players adopting a random attack strategy cannot gain rewards (rewards may even be lower than transaction fees) under the AlignX mechanism, and will not impact the effectiveness of training.
