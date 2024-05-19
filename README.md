@@ -89,8 +89,6 @@ forge create --rpc-url $SEPOLIA_RPC_URL  --private-key $PRIVATE_KEY  src/Xcontra
 
 Back-end includes model training, data generation, user dividend calculation, etc
 
-code: <https://github.com/fringsoo/valuia/tree/28b367e96752a5a9bd95606b6f16d897e4e3a32c/ip_figures>
-
 ## Experiments
 
 To test the effectiveness of the protocol, we conducted a simulation experiment involving 20 participants adopting 4 different strategies for 5 rounds of feedback on 100 cases in 1 scenario. The 4 strategies are:
